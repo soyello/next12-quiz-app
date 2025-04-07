@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  margin: 20px auto;
+  width: 95%;
+  min-height: 80vh;
+}
+
+@media (min-width: 500px) {
+  .main {
+    margin: 35px auto;
+    width: 80%;
+    min-height: 77.5vh;
+  }
+}
+
+@media (min-width: 880px) {
+  .main {
+    margin: 50px auto;
+    width: 60%;
+    min-height: 74.5vh;
+  }
+}

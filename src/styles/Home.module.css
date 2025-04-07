@@ -1,0 +1,24 @@
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  line-height: 1.8;
+}
+
+.startBtn {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 8px 10px;
+  font-size: 13px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+.startBtn:hover {
+  background-color: gray;
+  color: rgb(238, 233, 233);
+}
