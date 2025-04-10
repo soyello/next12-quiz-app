@@ -38,7 +38,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<TQuizR
     } else {
       res.send({
         prev: true,
-        next: false,
+        next: true,
         page,
         quiz,
         total: numOfQuestion,
