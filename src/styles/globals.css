@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+.title {
+  text-align: center;
+}
+
 .main {
   margin: 20px auto;
   width: 95%;
